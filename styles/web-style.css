@@ -222,3 +222,52 @@
 .insta-img{
     height: 250px;
 }
+
+/* subscribe section  */
+
+
+.deals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url("/Flower Asset/Rectangle\ 9.png"); */
+    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-size: cover;
+    height: 50vh;
+    width: 73vw;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 3px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+.sub-title {
+    font-family: Lato;
+    color: #272727;
+    font-weight: bold;
+
+}
+
+.sub-p {
+    font-size: smaller;
+    padding: 15px 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.form{
+    display: flex;
+    gap: 15px;
+}
+
+.inp{
+    padding: 0 12vw;
+    border: none;
+    border-radius: 5px;
+}
