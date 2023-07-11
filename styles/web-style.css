@@ -47,6 +47,7 @@
     margin-top: 46px;
 }
 
+
 /* Featured section  */
 
 .featured {
@@ -58,15 +59,17 @@
 
 .featured-title {
     font-family: Lato;
+    color: #272727;
 
 }
 
 .featured-p {
     font-size: smaller;
     padding: 28px 0;
+    color: rgba(39, 39, 39, 0.60);
 }
 
-.window{
+.window {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,20 +87,22 @@
     background: rgba(167, 33, 98, 0.15);
 }
 
-.window-img-1{
+.window-img-1 {
     position: absolute;
     bottom: 0px;
     height: 315px;
     width: 230px;
 }
-.window-1>a{
+
+.window-1>a {
     position: absolute;
     bottom: -50px;
     text-decoration: none;
-    color:#272727;
+    color: #272727;
     font-weight: 800;
     font-family: 'Lato', sans-serif;
 }
+
 .window-2 {
     width: 345px;
     height: 403px;
@@ -107,20 +112,23 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
-.window-img-2{
+
+.window-img-2 {
     position: absolute;
     bottom: 0px;
     height: 315px;
     width: 230px;
 }
-.window-2>a{
+
+.window-2>a {
     position: absolute;
     bottom: -50px;
     text-decoration: none;
-    color:#272727;
+    color: #272727;
     font-weight: 800;
     font-family: 'Lato', sans-serif;
 }
+
 .window-3 {
     width: 345px;
     height: 403px;
@@ -130,20 +138,53 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
-.window-img-3{
+
+.window-img-3 {
     position: absolute;
     bottom: 0px;
     height: 315px;
     width: 230px;
 }
-.window-3>a{
+
+.window-3>a {
     position: absolute;
     bottom: -50px;
     text-decoration: none;
-    color:#272727;
+    color: #272727;
     font-weight: 800;
     font-family: 'Lato', sans-serif;
 }
 
 
+/* offer section  */
+
+
+.offer{
+    height: 72vh;
+    background-color: #E554731A;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+}
+.offer-title{
+    color: #272727;
+}
+.off{
+    color: red;
+}
+.offer-txt{
+    text-align: center;
+}
+
+.offer-p{
+    padding: 28px 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: small;
+}
+
+.offer-img{
+    height: 295px;
+}
 
