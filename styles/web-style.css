@@ -162,7 +162,7 @@
 .offer {
     height: 72vh;
     background-color: #E554731A;
-    margin-top: 75px;
+    margin-top: 135px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,21 +212,21 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
-.insta-div{
+.insta-div {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 23px;
 }
 
-.insta-img{
+.insta-img {
     height: 250px;
 }
 
 /* subscribe section  */
 
 
-.deals{
+.deals {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,13 +261,50 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
-.form{
+.form {
     display: flex;
     gap: 15px;
 }
 
-.inp{
+.inp {
     padding: 0 12vw;
     border: none;
     border-radius: 5px;
+}
+
+/* footer section */
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 80px 0 20px 0;
+}
+
+.foot-title {
+    font-family: Lato;
+    color: #272727;
+    font-weight: bold;
+
+}
+
+.foot-p {
+    font-size: smaller;
+    padding: 15px 0;
+    color: #FFFFFFE5;
+}
+
+.foot {
+    background-color: black;
+    color: #FFFFFFE5;
+    height: 50vh;
+}
+
+.Flower {
+    color: #E55473;
+}
+
+.Shop {
+    color: white;
 }
