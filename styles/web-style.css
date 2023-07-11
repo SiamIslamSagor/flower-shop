@@ -159,7 +159,7 @@
 /* offer section  */
 
 
-.offer{
+.offer {
     height: 72vh;
     background-color: #E554731A;
     margin-top: 75px;
@@ -168,23 +168,57 @@
     align-items: center;
     gap: 78px;
 }
-.offer-title{
+
+.offer-title {
     color: #272727;
 }
-.off{
+
+.off {
     color: red;
 }
-.offer-txt{
+
+.offer-txt {
     text-align: center;
 }
 
-.offer-p{
+.offer-p {
     padding: 28px 0;
     color: rgba(39, 39, 39, 0.60);
     font-size: small;
 }
 
-.offer-img{
+.offer-img {
     height: 295px;
 }
 
+/* Instagram section  */
+
+.insta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+.insta-title {
+    font-family: Lato;
+    color: #272727;
+
+}
+
+.insta-p {
+    font-size: smaller;
+    padding: 28px 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.insta-div{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 23px;
+}
+
+.insta-img{
+    height: 250px;
+}
