@@ -8,8 +8,10 @@
     height: 100vh;
     background-color: #E554731A;
     display: flex;
-    justify-content: center;
-    gap: 65px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 650px;
+    position: relative;
 
 }
 
@@ -23,7 +25,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 35%;
+    position: absolute;
+    left: 140px;
 }
 
 .section-1-p {
@@ -41,10 +44,16 @@
     background-color: #E55473;
 }
 
+.all-btn:hover {
+    transform: scale(0.96);
+}
+
 .head-flower {
     height: 92vh;
-    width: 34vw;
-    margin-top: 46px;
+    position: absolute;
+    bottom: 0px;
+    right: 140px;
+
 }
 
 
@@ -73,12 +82,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 12px;
 }
 
 .window-1 {
-    width: 345px;
+    width: 305px;
     height: 403px;
+    /* width: 345px;
+    height: 403px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,7 +115,7 @@
 }
 
 .window-2 {
-    width: 345px;
+    width: 305px;
     height: 403px;
     display: flex;
     justify-content: center;
@@ -130,7 +141,7 @@
 }
 
 .window-3 {
-    width: 345px;
+    width: 305px;
     height: 403px;
     display: flex;
     justify-content: center;
@@ -190,6 +201,51 @@
 .offer-img {
     height: 295px;
 }
+
+/* bonus section  */
+
+.bonus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+.bonus-title {
+    font-family: Lato;
+    color: #272727;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.bonus-p {
+    font-size: smaller;
+    padding: 15px 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card-item {
+    margin: 0 19px;
+}
+
+.card-item:hover {
+    transform: scale(0.95, 0.95);
+}
+
+.bonus-img{
+    height: 250px;
+}
+
+
 
 /* Instagram section  */
 
